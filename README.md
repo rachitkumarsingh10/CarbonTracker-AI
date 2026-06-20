@@ -2,348 +2,247 @@
 
 <div align="center">
 
-![CarbonTracker AI](https://img.shields.io/badge/CarbonTracker-AI-green?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)
-![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?style=for-the-badge&logo=fastapi)
+### AI-Powered Carbon Footprint Tracking & Reduction Platform
 
-**An AI-powered web application for tracking, analyzing, and reducing your carbon footprint**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Next.js](https://img.shields.io/badge/next.js-14-black)](https://nextjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688.svg)](https://fastapi.tiangolo.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Documentation](#-documentation) • [Contributing](#-contributing)
+**Track • Analyze • Reduce Your Carbon Footprint with AI**
+
+[Features](#-key-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Demo](#-demo)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 🎯 About
 
-- [About](#-about)
-- [Features](#-features)
-- [Technology Stack](#-technology-stack)
-- [Architecture](#-architecture)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [API Documentation](#-api-documentation)
-- [Project Structure](#-project-structure)
-- [Development](#-development)
-- [Testing](#-testing)
-- [Deployment](#-deployment)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
+**CarbonTracker AI** is a comprehensive sustainability platform that empowers individuals to understand and reduce their environmental impact through AI-powered insights and personalized recommendations.
+
+### Why CarbonTracker AI?
+
+- 🤖 **AI-Powered Insights** - Get personalized recommendations from IBM Granite AI
+- 📊 **Real-Time Analytics** - Track your carbon footprint with interactive dashboards
+- 🎓 **Educational** - Learn about climate action through our RAG-powered knowledge base
+- 🎯 **Goal-Oriented** - Set and achieve sustainability goals with AI coaching
+- 🌱 **UN SDG Aligned** - Contributing to SDGs 11, 12, and 13
 
 ---
 
-## 🌟 About
+## ✨ Key Features
 
-**CarbonTracker AI** is a comprehensive sustainability platform that helps individuals understand and reduce their environmental impact. Built with cutting-edge AI technology and aligned with UN Sustainable Development Goals (SDGs 11, 12, and 13), it provides personalized insights and actionable recommendations for a more sustainable lifestyle.
+<table>
+<tr>
+<td width="50%">
 
-### 🎯 UN SDG Alignment
+### 🧮 Carbon Calculator
+- Track electricity, transport, food & water
+- Real-time CO₂ calculations
+- Category-wise breakdown
+- Sustainability score (0-100)
 
-- **SDG 11**: Sustainable Cities and Communities
-- **SDG 12**: Responsible Consumption and Production
-- **SDG 13**: Climate Action
-
----
-
-## ✨ Features
-
-### 🧮 Carbon Footprint Calculator
-- Track emissions from electricity, transportation, food, and water consumption
-- Real-time CO₂ calculations with category-wise breakdown
-- Monthly and annual emission reports
-- Sustainability score (0-100) with personalized insights
+</td>
+<td width="50%">
 
 ### 📊 Analytics Dashboard
-- Interactive charts and visualizations (powered by Recharts)
-- Monthly trend analysis and historical comparisons
-- Emission breakdown by category (pie charts, bar graphs)
-- Progress tracking towards sustainability goals
-- Comparison with average user benchmarks
+- Interactive charts & visualizations
+- Monthly trend analysis
+- Historical comparisons
+- Progress tracking
+
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ### 🤖 AI Sustainability Coach
-- **Powered by**: IBM Granite (via watsonx.ai) or Llama 3
-- Natural language conversations about sustainability
-- Personalized advice based on your carbon footprint
-- Educational content on climate change and eco-friendly practices
-- Context-aware responses using RAG (Retrieval-Augmented Generation)
+- Powered by IBM Granite / Llama 3
+- Natural language conversations
+- Personalized advice
+- Context-aware responses (RAG)
 
-### 🎓 RAG Knowledge Base
-- **Vector Database**: ChromaDB
-- Curated sustainability documents from:
-  - UN SDG resources
-  - IPCC climate reports
-  - EPA environmental guidelines
-  - Renewable energy research
-- Semantic search for accurate, cited information
+</td>
+<td width="50%">
 
-### 🤝 Agentic AI System
-Four specialized AI agents working together:
+### 💡 Smart Recommendations
+- Personalized reduction strategies
+- Estimated CO₂ savings
+- Difficulty levels & timelines
+- Implementation guides
 
-1. **Carbon Calculation Agent** - Validates and calculates emissions
-2. **Recommendation Agent** - Generates personalized reduction strategies
-3. **Education Agent** - Explains climate concepts and provides learning resources
-4. **Goal Tracking Agent** - Monitors progress and provides encouragement
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### 💡 AI Recommendation Engine
-- Personalized suggestions based on your profile and habits
-- Estimated CO₂ savings for each recommendation
-- Difficulty levels (easy, medium, hard)
-- Implementation timelines and step-by-step guides
-- Categories: Transportation, Energy, Food, Waste, Lifestyle
+### 📈 ML Predictions
+- 6-month carbon forecast
+- Trend analysis
+- Goal achievement probability
+- Impact assessment
 
-### 📈 ML-Powered Predictions
-- 6-month carbon footprint forecast
-- Trend analysis and pattern recognition
-- Goal achievement probability calculations
-- Impact assessment of recommendations
+</td>
+<td width="50%">
 
-### 📄 Document Upload & OCR
-- Upload electricity bills, fuel receipts, and travel tickets
-- Automatic data extraction using Tesseract OCR
-- Smart parsing and validation
-- Automatic carbon entry creation
+### 📄 Document Upload
+- OCR for bills & receipts
+- Automatic data extraction
+- Smart parsing
+- Auto-entry creation
 
-### 👨‍💼 Admin Panel
-- User management and analytics
-- System-wide statistics and insights
-- Knowledge base content management
-- Configuration and monitoring tools
+</td>
+</tr>
+</table>
+
+### 🤝 Four Specialized AI Agents
+
+| Agent | Purpose | Capability |
+|-------|---------|------------|
+| 🧮 **Carbon Agent** | Emission Calculation | Validates & calculates CO₂ from user input |
+| 💡 **Recommendation Agent** | Personalized Suggestions | Generates tailored reduction strategies |
+| 🎓 **Education Agent** | Climate Education | Explains concepts & provides resources |
+| 🎯 **Goal Tracking Agent** | Progress Monitoring | Tracks goals & provides encouragement |
 
 ---
 
 ## 🛠️ Technology Stack
 
-### Frontend
-- **Framework**: Next.js 14 (React 18) with App Router
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Charts**: Recharts
-- **State Management**: Zustand / React Context API
-- **HTTP Client**: Axios
-- **Forms**: React Hook Form + Zod validation
+<table>
+<tr>
+<td>
 
-### Backend
-- **Framework**: FastAPI (Python 3.11+)
-- **Database**: SQLite (development) / PostgreSQL (production)
-- **ORM**: SQLAlchemy
-- **Authentication**: JWT (PyJWT)
-- **Password Hashing**: bcrypt
-- **API Documentation**: Swagger UI / ReDoc (auto-generated)
+**Frontend**
+- Next.js 14 (React 18)
+- TypeScript
+- Tailwind CSS
+- Recharts
+- Zustand
 
-### AI/ML Stack
-- **LLM**: IBM Granite (via watsonx.ai) - Primary
-- **Fallback LLM**: Llama 3 (via Ollama)
-- **AI Framework**: LangChain
-- **Vector Database**: ChromaDB
-- **Embeddings**: sentence-transformers
-- **ML Libraries**: Scikit-learn, Pandas, NumPy
-- **OCR**: Tesseract / pytesseract
+</td>
+<td>
 
-### DevOps
-- **Containerization**: Docker & Docker Compose
-- **Version Control**: Git
-- **Environment Management**: Python venv, npm
+**Backend**
+- FastAPI (Python 3.11+)
+- SQLAlchemy ORM
+- PostgreSQL / SQLite
+- JWT Authentication
+- Pydantic
+
+</td>
+<td>
+
+**AI/ML**
+- IBM Granite (watsonx.ai)
+- LangChain
+- ChromaDB
+- Scikit-learn
+- Tesseract OCR
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+```bash
+Python 3.11+  |  Node.js 18+  |  Git
+```
+
+### Installation (Windows)
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/carbontracker-ai.git
+cd carbontracker-ai
+
+# Run automated setup
+setup.bat
+
+# Start all services
+start-all.bat
+```
+
+### Installation (Linux/Mac)
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/carbontracker-ai.git
+cd carbontracker-ai
+
+# Backend setup
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+
+# Frontend setup
+cd ../frontend
+npm install
+cp .env.local.example .env.local
+
+# Start backend (in one terminal)
+cd backend && source venv/bin/activate
+uvicorn app.main:app --reload
+
+# Start frontend (in another terminal)
+cd frontend && npm run dev
+```
+
+### Access the Application
+
+| Service | URL | Description |
+|---------|-----|-------------|
+| 🌐 Frontend | http://localhost:3000 | Main application |
+| 🔧 Backend API | http://localhost:8000 | REST API |
+| 📚 API Docs | http://localhost:8000/docs | Swagger UI |
+| 📖 ReDoc | http://localhost:8000/redoc | Alternative docs |
+
+---
+
+## 📖 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [PROJECT.md](PROJECT.md) | Complete technical documentation |
+| [SETUP_GUIDE.md](SETUP_GUIDE.md) | Detailed setup instructions |
+| [docs/MOM.md](docs/MOM.md) | Meeting minutes & decisions |
+| [backend/README.md](backend/README.md) | Backend documentation |
+| [frontend/README.md](frontend/README.md) | Frontend documentation |
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                         Frontend (Next.js)                   │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
-│  │Dashboard │  │Calculator│  │Analytics │  │  Chat    │   │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘   │
-└────────────────────────┬────────────────────────────────────┘
-                         │ REST API
-┌────────────────────────▼────────────────────────────────────┐
-│                      Backend (FastAPI)                       │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │              API Endpoints Layer                      │  │
-│  └──────────────────────────────────────────────────────┘  │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │           Business Logic & Services                   │  │
-│  └──────────────────────────────────────────────────────┘  │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │              AI/ML Components                         │  │
-│  │  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐    │  │
-│  │  │Carbon  │  │Recomm. │  │Educ.   │  │Goal    │    │  │
-│  │  │Agent   │  │Agent   │  │Agent   │  │Agent   │    │  │
-│  │  └────────┘  └────────┘  └────────┘  └────────┘    │  │
-│  └──────────────────────────────────────────────────────┘  │
-└────────────────────────┬────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│                    Frontend (Next.js)                    │
+│   Dashboard  │  Calculator  │  Analytics  │  AI Chat    │
+└────────────────────────┬────────────────────────────────┘
+                         │ REST API (Axios)
+┌────────────────────────▼────────────────────────────────┐
+│                   Backend (FastAPI)                      │
+│  ┌────────────────────────────────────────────────────┐ │
+│  │         API Layer (Auth, Carbon, Analytics)        │ │
+│  └────────────────────────────────────────────────────┘ │
+│  ┌────────────────────────────────────────────────────┐ │
+│  │              AI Agent Orchestration                 │ │
+│  │  Carbon │ Recommendation │ Education │ Goal Agent  │ │
+│  └────────────────────────────────────────────────────┘ │
+└────────────────────────┬────────────────────────────────┘
                          │
         ┌────────────────┼────────────────┐
-        │                │                │
-┌───────▼──────┐  ┌──────▼──────┐  ┌─────▼──────┐
-│   SQLite/    │  │   ChromaDB  │  │    IBM     │
-│  PostgreSQL  │  │   (Vector   │  │  watsonx   │
-│  (Database)  │  │   Database) │  │    .ai     │
-└──────────────┘  └─────────────┘  └────────────┘
+        ▼                ▼                ▼
+   PostgreSQL        ChromaDB      IBM watsonx.ai
+   (Database)     (Vector Store)    (LLM Provider)
 ```
-
----
-
-## 🚀 Installation
-
-### Prerequisites
-
-- **Python**: 3.11 or higher
-- **Node.js**: 18 or higher
-- **Git**: Latest version
-- **Operating System**: Windows, macOS, or Linux
-
-### Quick Start (Windows)
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/carbontracker-ai.git
-cd carbontracker-ai
-
-# 2. Run automated setup
-setup.bat
-
-# 3. Start the application
-start-all.bat
-```
-
-### Manual Setup
-
-<details>
-<summary>Click to expand manual setup instructions</summary>
-
-#### Backend Setup
-
-```bash
-# Navigate to backend directory
-cd backend
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# Windows:
-venv\Scripts\activate
-# Linux/Mac:
-source venv/bin/activate
-
-# Install dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
-
-# Configure environment
-copy .env.example .env
-# Edit .env with your configuration
-
-# Start backend server
-uvicorn app.main:app --reload
-```
-
-#### Frontend Setup
-
-```bash
-# Navigate to frontend directory
-cd frontend
-
-# Install dependencies
-npm install
-
-# Configure environment
-copy .env.local.example .env.local
-# Edit .env.local with your configuration
-
-# Start development server
-npm run dev
-```
-
-</details>
-
-### Access the Application
-
-Once running, access the application at:
-
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8000
-- **API Documentation**: http://localhost:8000/docs
-- **ReDoc**: http://localhost:8000/redoc
-
----
-
-## 📖 Usage
-
-### 1. Register an Account
-- Navigate to http://localhost:3000
-- Click "Register" and create your account
-- Complete your profile with household information
-
-### 2. Calculate Your Carbon Footprint
-- Go to the Calculator page
-- Enter your monthly consumption data:
-  - Electricity usage (kWh)
-  - Transportation (car, bike, public transport, flights)
-  - Food preferences (vegetarian, non-vegetarian, vegan)
-  - Water consumption
-- View your results and sustainability score
-
-### 3. Explore Analytics
-- Visit the Analytics Dashboard
-- View monthly trends and breakdowns
-- Compare your footprint with averages
-- Track your progress over time
-
-### 4. Chat with AI Coach
-- Open the AI Chat interface
-- Ask questions about sustainability
-- Get personalized recommendations
-- Learn about climate action
-
-### 5. Set and Track Goals
-- Define your sustainability goals
-- Monitor progress with AI assistance
-- Receive encouragement and tips
-- Celebrate milestones
-
----
-
-## 📚 API Documentation
-
-### Authentication Endpoints
-
-```http
-POST /api/auth/register    # Register new user
-POST /api/auth/login       # User login
-POST /api/auth/refresh     # Refresh JWT token
-```
-
-### Carbon Calculator Endpoints
-
-```http
-POST /api/carbon/calculate      # Calculate carbon footprint
-GET  /api/carbon/entries        # Get user's entries
-GET  /api/carbon/entries/{id}   # Get specific entry
-DELETE /api/carbon/entries/{id} # Delete entry
-```
-
-### Analytics Endpoints
-
-```http
-GET /api/analytics/summary    # Get carbon summary
-GET /api/analytics/trends     # Get monthly trends
-GET /api/analytics/breakdown  # Get category breakdown
-GET /api/analytics/score      # Get sustainability score
-```
-
-### AI Chat Endpoints
-
-```http
-POST /api/chat/message     # Send message to AI
-GET  /api/chat/history     # Get chat history
-DELETE /api/chat/history   # Clear chat history
-```
-
-For complete API documentation, visit http://localhost:8000/docs when the backend is running.
 
 ---
 
@@ -351,64 +250,105 @@ For complete API documentation, visit http://localhost:8000/docs when the backen
 
 ```
 carbontracker-ai/
-├── backend/                    # FastAPI Backend
+│
+├── 📂 backend/              # FastAPI Backend
 │   ├── app/
-│   │   ├── api/               # API endpoints
-│   │   ├── models/            # Database models
-│   │   ├── schemas/           # Pydantic schemas
-│   │   ├── services/          # Business logic
-│   │   ├── ai/                # AI components
-│   │   │   └── agents/        # AI agents
-│   │   ├── ml/                # ML models
-│   │   ├── core/              # Core configuration
-│   │   └── utils/             # Utilities
-│   ├── tests/                 # Backend tests
-│   ├── requirements.txt       # Python dependencies
-│   └── .env.example          # Environment template
+│   │   ├── api/            # REST API endpoints
+│   │   ├── models/         # Database models
+│   │   ├── schemas/        # Pydantic schemas
+│   │   ├── services/       # Business logic
+│   │   ├── ai/             # AI components
+│   │   │   └── agents/     # Specialized AI agents
+│   │   ├── ml/             # ML models
+│   │   └── core/           # Configuration
+│   └── requirements.txt
 │
-├── frontend/                   # Next.js Frontend
+├── 📂 frontend/             # Next.js Frontend
 │   ├── src/
-│   │   ├── app/               # Next.js pages (App Router)
-│   │   ├── components/        # React components
-│   │   ├── services/          # API services
-│   │   ├── hooks/             # Custom hooks
-│   │   ├── context/           # React Context
-│   │   ├── utils/             # Utilities
-│   │   └── types/             # TypeScript types
-│   ├── public/                # Static assets
-│   ├── package.json           # Node dependencies
-│   └── .env.local.example    # Environment template
+│   │   ├── app/            # Pages (App Router)
+│   │   ├── components/     # React components
+│   │   ├── services/       # API services
+│   │   └── hooks/          # Custom hooks
+│   └── package.json
 │
-├── data/                       # Data files
-│   ├── sustainability_docs/   # RAG knowledge base
-│   └── sample_datasets/       # Sample data
-│
-├── docs/                       # Documentation
-│   ├── INSTALLATION.md        # Setup guide
-│   ├── MOM.md                 # Meeting minutes
-│   └── PROJECT.md             # Project documentation
-│
-├── docker-compose.yml         # Docker services
-├── setup.bat                  # Windows setup script
-├── start-all.bat             # Start all services
-└── README.md                  # This file
+├── 📂 data/                 # Data & documents
+├── 📂 docs/                 # Documentation
+├── 🐳 docker-compose.yml    # Docker services
+└── 📄 README.md             # This file
 ```
 
 ---
 
-## 💻 Development
+## 🎮 Usage
 
-### Running Tests
+### 1️⃣ Register & Setup Profile
+Create your account and complete your profile with household information.
 
-**Backend Tests:**
+### 2️⃣ Calculate Carbon Footprint
+Enter your monthly consumption data:
+- ⚡ Electricity usage (kWh)
+- 🚗 Transportation (car, bike, public transport, flights)
+- 🍽️ Food preferences (vegetarian, non-vegetarian, vegan)
+- 💧 Water consumption
+
+### 3️⃣ View Analytics
+Explore your carbon footprint through interactive dashboards and charts.
+
+### 4️⃣ Chat with AI Coach
+Ask questions, get recommendations, and learn about sustainability.
+
+### 5️⃣ Track Goals
+Set sustainability goals and monitor your progress with AI assistance.
+
+---
+
+## 🔌 API Endpoints
+
+### Authentication
+```http
+POST   /api/auth/register     # Register new user
+POST   /api/auth/login        # User login
+POST   /api/auth/refresh      # Refresh token
+```
+
+### Carbon Calculator
+```http
+POST   /api/carbon/calculate      # Calculate footprint
+GET    /api/carbon/entries        # Get entries
+GET    /api/carbon/entries/{id}   # Get specific entry
+DELETE /api/carbon/entries/{id}   # Delete entry
+```
+
+### Analytics
+```http
+GET /api/analytics/summary     # Carbon summary
+GET /api/analytics/trends      # Monthly trends
+GET /api/analytics/breakdown   # Category breakdown
+GET /api/analytics/score       # Sustainability score
+```
+
+### AI Chat
+```http
+POST   /api/chat/message    # Send message to AI
+GET    /api/chat/history    # Get chat history
+DELETE /api/chat/history    # Clear history
+```
+
+**📚 Full API Documentation:** Visit http://localhost:8000/docs when running
+
+---
+
+## 🧪 Testing
+
+### Run Tests
+
 ```bash
+# Backend tests
 cd backend
 pytest
 pytest --cov=app --cov-report=html
-```
 
-**Frontend Tests:**
-```bash
+# Frontend tests
 cd frontend
 npm test
 npm run test:coverage
@@ -416,66 +356,15 @@ npm run test:coverage
 
 ### Code Quality
 
-**Backend:**
 ```bash
-# Format code
-black app/
+# Backend
+black app/          # Format
+flake8 app/         # Lint
+mypy app/           # Type check
 
-# Lint code
-flake8 app/
-
-# Type checking
-mypy app/
-```
-
-**Frontend:**
-```bash
-# Lint
-npm run lint
-
-# Type check
-npm run type-check
-
-# Format
-npm run format
-```
-
-### Database Migrations
-
-```bash
-cd backend
-
-# Create migration
-alembic revision --autogenerate -m "Description"
-
-# Apply migrations
-alembic upgrade head
-
-# Rollback
-alembic downgrade -1
-```
-
----
-
-## 🧪 Testing
-
-### Test Coverage
-
-- **Backend**: Unit tests, integration tests, AI agent tests
-- **Frontend**: Component tests (Jest + React Testing Library)
-- **E2E**: End-to-end tests (Playwright - coming soon)
-
-### Running Specific Tests
-
-```bash
-# Backend - specific test file
-pytest tests/test_carbon_calculator.py
-
-# Backend - specific test function
-pytest tests/test_carbon_calculator.py::test_calculate_emissions
-
-# Frontend - specific component
-npm test -- Calculator.test.tsx
+# Frontend
+npm run lint        # ESLint
+npm run type-check  # TypeScript
 ```
 
 ---
@@ -485,7 +374,7 @@ npm test -- Calculator.test.tsx
 ### Docker Deployment
 
 ```bash
-# Build and start all services
+# Start all services
 docker-compose up -d
 
 # View logs
@@ -495,100 +384,126 @@ docker-compose logs -f
 docker-compose down
 ```
 
-### Cloud Deployment Options
+### Cloud Platforms
 
-- **Frontend**: Vercel, Netlify, AWS Amplify
-- **Backend**: Heroku, Railway, AWS EC2, Google Cloud Run
-- **Database**: AWS RDS, Azure Database, Heroku Postgres
-
-### Environment Variables
-
-See `.env.example` files in backend and frontend directories for required configuration.
+| Component | Recommended Platforms |
+|-----------|----------------------|
+| Frontend | Vercel, Netlify, AWS Amplify |
+| Backend | Heroku, Railway, AWS EC2, Google Cloud Run |
+| Database | AWS RDS, Azure Database, Heroku Postgres |
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
+We welcome contributions! Here's how you can help:
 
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
+1. 🍴 Fork the repository
+2. 🌿 Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
+5. 🔀 Open a Pull Request
 
 ### Contribution Guidelines
 
-- Follow the existing code style
-- Write tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting PR
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📧 Contact
-
-**Project Maintainer**: [Your Name]
-
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
-**Project Link**: [https://github.com/yourusername/carbontracker-ai](https://github.com/yourusername/carbontracker-ai)
-
----
-
-## 🙏 Acknowledgments
-
-- **IBM watsonx.ai** for providing enterprise-grade AI capabilities
-- **UN SDG** resources for sustainability guidelines
-- **EPA** for emission factor data
-- **Open-source community** for amazing tools and libraries
-
----
-
-## 📊 Project Status
-
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Coverage](https://img.shields.io/badge/coverage-85%25-green)
-![Version](https://img.shields.io/badge/version-0.1.0-blue)
-
-**Current Phase**: Foundation Complete ✅  
-**Next Phase**: Core Features Development 🔄
+- ✅ Follow existing code style
+- ✅ Write tests for new features
+- ✅ Update documentation
+- ✅ Ensure all tests pass
 
 ---
 
 ## 🗺️ Roadmap
 
-- [x] Project planning and documentation
-- [x] Foundation setup (backend, frontend, database)
-- [ ] Core features (calculator, analytics, basic AI)
-- [ ] Advanced AI features (RAG, agents, predictions)
-- [ ] OCR document upload
-- [ ] Admin panel
-- [ ] Mobile app (React Native)
-- [ ] Social features and gamification
-- [ ] Carbon offset marketplace
+- [x] **Phase 1:** Planning & Documentation
+- [x] **Phase 2:** Foundation Setup
+- [ ] **Phase 3:** Core Features (Calculator, Analytics, Basic AI)
+- [ ] **Phase 4:** Advanced AI (RAG, Agents, Predictions)
+- [ ] **Phase 5:** Polish & Deployment
+
+### Future Enhancements
+
+- 📱 Mobile app (React Native)
+- 🎮 Gamification (badges, leaderboards)
+- 🌐 Multi-language support
+- 🏪 Carbon offset marketplace
+- 🏠 Smart home device integration
+- 👥 Social features & community challenges
 
 ---
 
-## 📸 Screenshots
+## 🌱 UN SDG Alignment
 
-*Coming soon - Screenshots will be added as features are implemented*
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/SDG-11-red?style=for-the-badge" alt="SDG 11"/>
+<br><b>Sustainable Cities</b>
+<br>and Communities
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/SDG-12-orange?style=for-the-badge" alt="SDG 12"/>
+<br><b>Responsible Consumption</b>
+<br>and Production
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/SDG-13-green?style=for-the-badge" alt="SDG 13"/>
+<br><b>Climate</b>
+<br>Action
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 Project Stats
+
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-85%25-green)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **IBM watsonx.ai** - Enterprise AI capabilities
+- **UN SDG** - Sustainability guidelines
+- **EPA** - Emission factor data
+- **Open Source Community** - Amazing tools and libraries
+
+---
+
+## 📧 Contact & Support
+
+<div align="center">
+
+**Project Maintainer:** [Your Name]
+
+[![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+
+**Found a bug?** [Open an issue](https://github.com/yourusername/carbontracker-ai/issues)
+
+**Have a question?** [Start a discussion](https://github.com/yourusername/carbontracker-ai/discussions)
+
+</div>
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for a sustainable future**
+### ⭐ Star this repo if you find it helpful!
 
-⭐ Star this repo if you find it helpful!
+**Made with ❤️ for a sustainable future 🌍**
 
-</div>#   C a r b o n T r a c k e r - A I  
- 
+*Last Updated: June 2026 • Version 0.1.0*
+
+</div>

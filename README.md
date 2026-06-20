@@ -369,31 +369,6 @@ npm run type-check  # TypeScript
 
 ---
 
-## 🚢 Deployment
-
-### Docker Deployment
-
-```bash
-# Start all services
-docker-compose up -d
-
-# View logs
-docker-compose logs -f
-
-# Stop services
-docker-compose down
-```
-
-### Cloud Platforms
-
-| Component | Recommended Platforms |
-|-----------|----------------------|
-| Frontend | Vercel, Netlify, AWS Amplify |
-| Backend | Heroku, Railway, AWS EC2, Google Cloud Run |
-| Database | AWS RDS, Azure Database, Heroku Postgres |
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
